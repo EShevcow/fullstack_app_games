@@ -1,4 +1,7 @@
 <?php
+
+require_once __DIR__ . '/cors.php';
+
 $host = 'localhost';
 $db   = 'game_api';
 $user = 'root';

@@ -1,4 +1,7 @@
 <?php
+
+require_once __DIR__ . '/cors.php';
+
 function checkAuth() {
     if (!isset($_SERVER['PHP_AUTH_USER'])) {
         header('WWW-Authenticate: Basic realm="My API"');
